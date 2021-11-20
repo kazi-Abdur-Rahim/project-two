@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.full-wrapper{
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    
+}
+.gar-color{
+    background-image: linear-gradient(to bottom,#f38181,#fce38a);
+}
+/*================
+common css ends 
+=================*/
+@font-face{
+    font-family:'mot-bold' ;
+    src: url(../fonts/montserrat/Montserrat-ExtraBold.ttf);
+}
+@font-face{
+    font-family:'mot-reg' ;
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: 'kaushan';
+    src: url(../fonts/kaushan/KaushanScript-Regular.ttf);
+}
+
+/*================
+fonts css ends 
+=================*/
+.manu-bg{
+    height: 1000px;
+    background-image: url(../images/mogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.manu-bg .gar-color{
+    height: 100%;
+    background-image: linear-gradient(to bottom,#F38181,#FBDE89);
+    opacity: 0.8;
+}
+.manu-bg .gar-color .banner {
+    width: 100%;
+    height: 100%;
+}
+.manu-bg .gar-color .banner .manu{
+    height: 50px;
+}
+.manu-bg .gar-color .banner .manu .manu-list{
+    width: 1200px;
+    height: 50px;
+    float: left;
+}
+.manu-bg .gar-color .banner .manu .manu-list .logo{
+    margin-top: 10px;
+    color: #ffffff;
+    float: left;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family:'mot-bold' ;
+}
+.manu-bg .gar-color .banner .manu .manu-list ul{
+    text-align: right;
+}
+.manu-bg .gar-color .banner .manu .manu-list ul li{
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 50px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #ffffff;
+    font-family:'mot-reg' ;
+    transition: all linear 0.3s;
+}
+.manu-bg .gar-color .banner .manu .manu-list ul li:hover{
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+}
+.manu-bg .gar-color .banner .manu .manu-list ul li i{
+    font-size: 14px;
+}
+.manu-bg .gar-color .banner .manu .banner-text{
+    width: 800px;
+    height: 685px;
+    margin: auto;
+    text-align: center;
+    padding-top: 165px;
+}
+.manu-bg .gar-color .banner .manu .banner-text h5{
+    color: #ffffff;
+    font-size: 55px;
+    font-family: 'kaushan';
+}
+.manu-bg .gar-color .banner .manu .banner-text h3{
+    color: #ffffff;
+    font-size: 122px;
+    font-family:'mot-bold' ;
+    padding: 60px 0;
+    position: relative;
+    margin-bottom: 42px;
+}
+.manu-bg .gar-color .banner .manu .banner-text h3::after {
+	content: '';
+	width: 60px;
+	height: 4px;
+	color: #ffffff;
+	position: absolute;
+	top: 100%;
+	left: 368px;
+	border-bottom: 4px solid #ffffff;
+}
+.manu-bg .gar-color .banner .manu .banner-text h6 {
+	display: inline-block;
+	padding: 7px 30px;
+	color: #ffffff;
+	font-family: 'mot-bold';
+	font-size: 14px;
+	border: 3px solid #ffffff;
+    transition: all linear 0.3s;
+}
+.manu-bg .gar-color .banner .manu .banner-text h6:hover{
+    color: #fce38a;
+    /* border: 3px solid #fce38a; */
+}
+.manu-bg .gar-color .banner .manu .banner-text .circel{
+    padding-top: 115px;
+    color: #ffffff;
+}
+.manu-bg .gar-color .banner .manu .banner-text .circel .red{
+    color: red;
+    margin: 0 5px;
+}
