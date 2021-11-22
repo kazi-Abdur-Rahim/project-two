@@ -56,6 +56,10 @@ space css ends
     font-family: 'robo';
     src: url(../fonts/robo/Roboto-Regular.ttf);
 }
+@font-face {
+    font-family: 'robo-lig';
+    src: url(../fonts/robo/Roboto-Light.ttf);
+}
 /*================
 fonts css ends 
 =================*/
@@ -341,5 +345,210 @@ manu and banner ends
 	padding-left: 96px;
 }
 /*==============
- services ends w396 h160
+ services ends 
  ==============*/
+.design-bg{
+    height: 850px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.design-bg .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.788);
+    position: absolute;
+    top: 0;
+}
+.design-bg .overlay .design-img {
+	width: 470px;
+	height: 578px;
+	margin: 90px auto;
+	position: relative;
+}
+.design-bg .overlay .design-img img{
+    width: 100%;
+
+}
+.design-bg .overlay .design-img .design-img2 {
+	width: 200px;
+	height: 436px;
+	position: absolute;
+	bottom: -162px;
+	right: -117px;
+    z-index: 60;
+}
+.design-bg .overlay .design-img .design-img2 img{
+    width: 100%;
+}
+/*===========
+ design ends
+=============*/
+.do-bg{
+    color: #ffffff;
+}
+.do-bg .do{
+    height: 900px;
+}
+.do-bg .do .pn{
+    padding: 100px 102px;
+    line-height: 20px;
+    color: #999999;
+    font-size: 15px;
+    font-family: 'robo';
+    text-align: center;
+}
+.do-bg .do .do-box1{
+    width: 570px;
+    height: 380px;
+    float: left;
+    margin-right: 30px;
+}
+.do-bg .do .do-box2{
+    width: 600px;
+    height: 380px;
+    float: left;
+}
+.do-bg .do .do-box2 .icon1{
+    width: 100%;
+    height: 240px;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+}
+.do-bg .do .do-box2 .icon1 img{
+    padding:15px 15px;
+}
+.do-bg .do .do-box2 .icon1 span{
+    font-size: 14px;
+    color: #333333;
+    font-family:'mot-reg' ;
+    text-transform: uppercase;
+}
+.do-bg .do .do-box2 .icon1 i {
+	float: right;
+	font-size: 40px;
+	width: 21px;
+	height: 12px;
+	color: #cccccc;
+	padding: 9px 20px 9px 0;
+}
+.do-bg .do .do-box2 .icon1 p{
+    color: #999999;
+    font-family: 'robo-lig';
+    border-top: 1px solid #999999;
+    padding:15px 15px;
+}
+.do-bg .do .do-box2 .icon2{
+    width: 100%;
+    height: 60px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+}
+.do-bg .do .do-box2 .icon2 img{
+    padding:15px 15px;
+}
+.do-bg .do .do-box2 .icon2 span{
+    font-size: 14px;
+    color: #333333;
+    font-family:'mot-reg' ;
+    text-transform: uppercase;
+}
+.do-bg .do .do-box2 .icon2 i {
+	float: right;
+	font-size: 40px;
+	width: 21px;
+	height: 12px;
+	color: #cccccc;
+	padding: 9px 20px 9px 0;
+}
+.do-bg .do .do-box2 .icon3{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+}
+.do-bg .do .do-box2 .icon3 img{
+    padding:15px 15px;
+}
+.do-bg .do .do-box2 .icon3 span{
+    font-size: 14px;
+    color: #333333;
+    font-family:'mot-reg' ;
+    text-transform: uppercase;
+}
+.do-bg .do .do-box2 .icon3 i {
+	float: right;
+	font-size: 40px;
+	width: 21px;
+	height: 12px;
+	color: #cccccc;
+	padding: 9px 20px 9px 0;
+}
+/*============
+what do ends
+==============*/
+.fun-bg{
+    background-color: #f8f8f8;
+}
+.fun-bg .fun{
+    height: 150px;
+    padding: 70px 0;
+    position: relative;
+}
+.fun-bg .fun i{
+    width: 12px;
+    height: 21px;
+    color: #cccccc;
+    font-size: 24px;
+    padding-left: 22px;
+    float: left;
+    margin-top: 64px;
+}
+.fun-bg .fun img{
+    border: 3px solid #95e1d3;
+    padding: 41px 41px;
+    margin-left: 75px;
+    margin-right: 62px;
+    float: left;
+}
+.fun-bg .fun p{
+    width: 723px;
+    color: #999999;
+    font-family: 'robo-lig';
+    font-size: 24px;
+    float: left;
+}
+.fun-bg .fun .ab {
+	text-align: left;
+	position: relative;
+	left: 68px;
+	top: 25px;
+}
+.fun-bg .fun .ab::before {
+	content: '';
+	width: 60px;
+	height: 3px;
+	position: absolute;
+	top: 108px;
+	left: 254px;
+	border-bottom: 3px solid #f38181;
+}
+.fun-bg .fun .rt {
+	width: 12px;
+	height: 21px;
+	color: #cccccc;
+	font-size: 24px;
+	padding-right: 22px;
+	float: left;
+	padding-bottom: 64px;
+	position: absolute;
+	top: 64px;
+	right: 22px;
+}
+
+
+
+
