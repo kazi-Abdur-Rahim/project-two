@@ -108,6 +108,9 @@ head css ends
     height: 50px;
     float: left;
 }
+.manu-bg .manu .manu-list a{
+    color: #ffffff;
+}
 .manu-bg .manu .manu-list .logo{
     margin-top: 10px;
     color: #ffffff;
@@ -126,17 +129,22 @@ head css ends
     margin-left: 50px;
     text-transform: capitalize;
     font-size: 14px;
-    color: #ffffff;
     font-family:'mot-reg' ;
-    transition: all linear 0.3s;
 }
-.manu-bg .manu .manu-list ul li:hover{
+.manu-bg .manu .manu-list ul li a{
+    color: #ffffff;
+    transition: all linear 0.3s;
+    padding-bottom: 10px;
+}
+.manu-bg .manu .manu-list ul li a:hover{
     color: #fce38a;
     border-bottom: 3px solid #fce38a;
 }
-.manu-bg  .manu .manu-list ul li i{
+.manu-bg  .manu .manu-list ul li a i{
+    /* color: #ffffff; */
     font-size: 14px;
 }
+
 .manu-bg .manu .banner-text{
     width: 800px;
     height: 685px;
@@ -548,7 +556,255 @@ what do ends
 	top: 64px;
 	right: 22px;
 }
+/*=========
+fun ends
+==========*/
+.team-bg{
+    background-color: #ffffff;
+}
+.team-bg .team{
+    height: 1050px;
+}
+.team-bg .team p{
+    font-size: 15px;
+    color: #999999;
+    font-family: 'robo';
+    padding: 115px;
+    text-align: center;
+}
+.team-bg .team .team-box{
+    height: 472px;
+}
+.team-bg .team .team-box .team-item{
+    width: 380px;
+    height: 472px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.team-bg .team .team-box .team-item .team-icon{
+    width: 224px;
+    height: 56px;
+    background-color: #fce38a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    visibility: hidden;
+}
+.team-bg .team .team-box .team-item:hover .team-icon{
+    visibility: visible;
+}
+.team-bg .team .team-box .team-item .team-icon a{
+    width: 53px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: #f38181;
+    line-height: 56px;
+    border-right: 1px solid #f38181;
+    box-sizing: border-box;
+    transition: all linear 0.3s;
+}
+.team-bg .team .team-box .team-item .team-icon a:hover{
+    background-color:#f38181 ;
+    color: #ffffff;
+}
+.team-bg .team .team-box .team-item::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,#f38181,#fce38a);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    visibility: hidden;
+    z-index: 2;
+}
+.team-bg .team .team-box .team-item:hover::after{
+    visibility: visible;
+}
+.team-bg .team .team-box .team-item .team-text{
+    height: 140px;
+    width: 100%;
+}
+.team-bg .team .team-box .team-item .team-text .head{
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    padding-top: 40px;
+}
+.team-bg .team .team-box .team-item .team-text .end{
+    font-size: 15px;
+    color: #999999;
+    font-family: 'robo-lig';
+    text-align: center;
+    display:block;
+    padding-top: 15px;
+}
+/*==========
+ team ends 
+ ===========*/
+.logo-bg{
+    margin-top: 70px;
+    background-color: #f8f8f8;
+}
+.logo-bg .logo{
+    height: 250px;
+}
+.logo-bg .logo img{
+    padding: 68px 10px;
+}
+/*==========
+ logo ends 
+===========*/
+.our-work-bg{
+    background-color: #ffffff;
+}
+.our-work-bg .our-work{
+    background-color: #ffffff;
+}
+.our-work-bg .our-work p{
+    font-size: 15px;
+    color: #999999;
+    font-family: 'robo';
+    padding: 115px;
+    text-align: center;
+}
+.our-work-bg .our-box1{
+    width: 754px;
+    height: 612px;
+    background-color: #fce38a;
+    float: left;
+}
+.our-work-bg .our-box1 .our-item {
+	width: 377px;
+	height: 306px;
+	float: left;
+    position: relative;
+}
+.our-work-bg .our-box1 .our-item img{
+    width: 100%;   
+}
+.our-work-bg .our-box1 .our-item::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,#f38181,#fce38a);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    visibility: hidden;
 
+}
+.our-work-bg .our-box1 .our-item:hover::after{
+    visibility: visible;
+}
+.our-work-bg .our-box1 .our-item .our-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    visibility: hidden;
+}
+.our-work-bg .our-box1 .our-item .our-icon img{
+    width: 30px;
+    height: 30px;
+    padding:0 56px
+}
+.our-work-bg .our-box1 .our-item .our-icon p{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'mot-reg';
+}
+.our-work-bg .our-box1 .our-item .our-icon span{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'robo-lig';
+}
+.our-work-bg .our-box1 .our-item:hover .our-icon{
+    visibility: visible;
+}
+.our-work-bg .our-box2{
+    width: 754px;
+    height: 612px;
+    float: left;
+}
+.our-work-bg .our-box2 .our-item {
+	width: 377px;
+	height: 306px;
+	float: left;
+    position: relative;
+}
+.our-work-bg .our-box2 .our-item:first-of-type{
+    height: 612px;
+}
+.our-work-bg .our-box2 .our-item img{
+    width: 100%;
+    
+}
+.our-work-bg .our-box2 .our-item::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,#f38181,#fce38a);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    visibility: hidden;
+
+}
+.our-work-bg .our-box2 .our-item:hover::after{
+    visibility: visible;
+}
+.our-work-bg .our-box2 .our-item .our-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    visibility: hidden;
+}
+.our-work-bg .our-box2 .our-item .our-icon img{
+    width: 30px;
+    height: 30px;
+    padding:0 56px
+}
+.our-work-bg .our-box2 .our-item .our-icon p{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'mot-reg';
+}
+.our-work-bg .our-box2 .our-item .our-icon span{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'robo-lig';
+}
+.our-work-bg .our-box2 .our-item:hover .our-icon{
+    visibility: visible;
+}
+/* .our-work-bg .our-box .our-item{
+    width: 377px;
+    height: 390px;
+    background-color: brown;
+    float: left;
+   
+}
+.our-work-bg .our-box .our-item:nth-of-type(3){
+    width: 377px;
+    height: 780px;
+    background-color: coral;
+} */
 
 
 
