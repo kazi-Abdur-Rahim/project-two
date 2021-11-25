@@ -37,6 +37,12 @@ common css ends
 .mt-5{
     margin-top: 5px;
 }
+.mr-30{
+    margin-right: 30px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
 /*================
 space css ends 
 =================*/
@@ -597,19 +603,21 @@ fun ends
     visibility: visible;
 }
 .team-bg .team .team-box .team-item .team-icon a{
-    width: 53px;
-    height: 100%;
     display: inline-block;
-    text-align: center;
-    font-size: 20px;
-    color: #f38181;
-    line-height: 56px;
+    width: 53px;
+    height: 56px;
     border-right: 1px solid #f38181;
     box-sizing: border-box;
+    text-align: center;
+}
+.team-bg .team .team-box .team-item .team-icon a i{
+    padding: 0 40%;
+    line-height: 56px;
+    color: #f38181;
     transition: all linear 0.3s;
 }
-.team-bg .team .team-box .team-item .team-icon a:hover{
-    background-color:#f38181 ;
+.team-bg .team .team-box .team-item .team-icon a i:hover{
+    background-color: #f38181;
     color: #ffffff;
 }
 .team-bg .team .team-box .team-item::after{
@@ -661,11 +669,13 @@ fun ends
 /*==========
  logo ends 
 ===========*/
-.our-work-bg{
-    background-color: #ffffff;
+.our-work-bg {
+	height: 1065px;
+	background-color: #ffffff;
 }
 .our-work-bg .our-work{
     background-color: #ffffff;
+
 }
 .our-work-bg .our-work p{
     font-size: 15px;
@@ -793,18 +803,137 @@ fun ends
 .our-work-bg .our-box2 .our-item:hover .our-icon{
     visibility: visible;
 }
-/* .our-work-bg .our-box .our-item{
-    width: 377px;
-    height: 390px;
-    background-color: brown;
-    float: left;
-   
+/*============ 
+our-work ends 
+==============*/
+.blog-bg{
+    margin-bottom: 100px;
 }
-.our-work-bg .our-box .our-item:nth-of-type(3){
-    width: 377px;
-    height: 780px;
-    background-color: coral;
-} */
+.blog-bg .blog{
+    height: 150px;
+    padding: 70px 0;
+    position: relative;
+}
+.blog-bg .blog i {
+	width: 12px;
+	height: 21px;
+	color: #cccccc;
+	font-size: 24px;
+	padding-left: 22px;
+	float: left;
+	margin-top: 90px;
+}
+.blog-bg .blog img {
+	/* padding: 41px 41px; */
+	margin-left: 40px;
+	margin-right: 30px;
+	float: left;
+}
+.blog-bg .blog p {
+	width: 723px;
+	color: #999999;
+	font-family: 'robo-lig';
+	font-size: 24px;
+	float: left;
+	margin-top: 35px;
+}
+.blog-bg .blog .ab {
+	text-align: left;
+	position: relative;
+	left: -649px;
+	top: 55px;
+}
+.blog-bg .blog .ab::before {
+	content: '';
+	width: 60px;
+	height: 3px;
+	position: absolute;
+	top: 108px;
+	left: 965px;
+	border-bottom: 3px solid #f38181;
+}
+.blog-bg .blog .rt {
+	width: 12px;
+	height: 21px;
+	color: #cccccc;
+	font-size: 24px;
+	padding-right: 22px;
+	float: left;
+	padding-bottom: 64px;
+	position: absolute;
+	top: 90px;
+	right: 22px;
+}
+ /*===========
+  blog ends 
+  ===========*/
+.happy-bg{
+    height: 850px;
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+.happy-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: -1;
+}
+.happy-bg .happy{
+    height: 100%;
+}
+.happy-bg .happy .happy-box{
+    height: 390px;
+    width: 100%;
+    margin-top: 148px;
+}
+.happy-bg .happy .happy-item {
+	width: 44.7%;
+	height: 160px;
+	float: left;
+	padding-left: 40px;
+	position: relative;
+}
+.happy-bg .happy .happy-item::after {
+	content: '';
+	width: 60px;
+	height: 3px;
+	position: absolute;
+	top: 58px;
+	left: 180px;
+	border-bottom: 3px solid #f38181;
+}
+.happy-bg .happy .happy-item img{
+    padding-right: 30px;
 
-
-
+}
+.happy-bg .happy .happy-item h3 {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+    color: #333333;
+    font-family: 'mot-reg';
+    font-size: 14px;
+}
+.happy-bg .happy .happy-item span {
+	display: block;
+	position: absolute;
+	top: 25px;
+	left: 180px;
+    font-family: 'robo-lig';
+    font-size: 15px;
+    color: #333333;
+}
+.happy-bg .happy .happy-item p {
+	position: absolute;
+	top: 82px;
+	width: 383px;
+	color: #999999;
+	font-size: 15px;
+	line-height: 24px;
+	display: inline-block;
+}
