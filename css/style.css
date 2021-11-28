@@ -937,3 +937,124 @@ our-work ends
 	line-height: 24px;
 	display: inline-block;
 }
+/*===========
+ happy ends 
+============*/
+.arctil-bg{
+    background-color: #ffffff;
+}
+.arctil-bg .arctil{
+    height: 770px;
+}
+.arctil-bg .arctil .arctil-box{
+    margin-top: 90px;
+    height: 405px;
+}
+.arctil-bg .arctil .arctil-box .arctil-item{
+    width: 380px;
+    height: 243px;
+    float: left;
+    position: relative;
+}
+.arctil-bg .arctil .arctil-box .arctil-item img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.arctil-bg .arctil .arctil-box .arctil-item span{
+    font-size: 14px;
+    font-family: 'mot-red';
+    text-transform: uppercase;
+    color: #333333;
+}
+.arctil-bg .arctil .arctil-box .arctil-item p{
+    margin-top: 20px;
+    font-family: 'robo';
+    font-size: 15px;
+    color: #999999;
+    line-height: 24px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.arctil-bg .arctil .arctil-box .arctil-item #fon{
+    width: 19px;
+    height: 11px;
+    color: #95e1d3;
+    margin-top: 20px;
+    margin-right: 40px;
+    
+}
+.arctil-bg .arctil .arctil-box .arctil-item .text{
+    margin-left: 5px;
+    font-family: 'robo-lig';
+    font-size: 15px;
+    color: #999999;
+}
+.arctil-bg .arctil .arctil-box .arctil-item i{
+    width: 19px;
+    height: 11px;
+    color: #95e1d3;
+    margin-top: 20px;
+}
+.arctil-bg .arctil .arctil-box .arctil-item .arctil-cil {
+	width: 60px;
+	height: 75px;
+	background-color: #95e1d3;
+	position: absolute;
+	top: 151px;
+	left: -10px;
+}
+.arctil-bg .arctil .arctil-box .arctil-item .arctil-cil h2{
+    padding-top: 15px;
+    text-align: center;
+    font-family:'mot-bold' ;
+    color: #ffffff;
+}
+.arctil-bg .arctil .arctil-box .arctil-item .arctil-cil h3{
+    text-align: center;
+    font-family: 'robo-lig';
+    text-transform: capitalize;
+    color: #ffffff;
+}
+/*==================
+ blog section ends 
+===================*/
+.map-bg{
+    height: 200px;
+    background: url(../images/mp.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+.map-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.85) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.map-bg .map{
+    text-align: center;
+}
+.map-bg .map i{
+    width: 19px;
+    height: 25px;
+    margin-top: 40px;
+    color: #f38181;
+    font-size: 30px;
+}
+.map-bg .map h5{
+    color: #f38181;
+}
+/*=========
+ map ends 
+==========*/
+
+
+
+
+
+
+
+
